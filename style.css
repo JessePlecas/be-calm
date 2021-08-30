@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=WindSong&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+body {
+  overflow-x: hidden;
+  color: #505962;
+}
+
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background: rgba(0, 0, 0, 0) !important;
+}
+
+.navbar-brand img {
+  height: 2.5rem;
+}
+
+.navbar-nav li {
+  padding-right: 0.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: indianred !important;
+}
+
+.home-inner {
+  background-image: url("./images/main-img.jpg");
+}
+/*=== Photo by <a href="https://unsplash.com/@ravipinisetti?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ravi Pinisetti</a> on <a href="https://unsplash.com/s/photos/calm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  ===*/
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 10%;
+  z-index: 1;
+  color: white;
+}
+
+.caption h1 {
+  font-family: "Amatic SC", cursive !important;
+  font-size: 5rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.2rem, 2rem, 0.8rem black !important;
+  padding-bottom: 1rem;
+}
+
+.caption h3 {
+  font-family: "Amatic SC", cursive !important;
+  font-size: 3rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+  padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+  border-width: medium !important;
+  border-radius: 0 !important;
+  padding: 0.6rem 1.3rem !important;
+  font-size: 1.1rem !important;
+  font-family: "Lato", sans-serif;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
+}
+.btn-lg:hover {
+  border-color: teal;
+  color: teal;
+  background-color: transparent;
+}
+
+.narrow {
+  width: 75% !important;
+  margin: 1.5rem auto !important;
+  padding-top: 2rem !important;
+}
+
+.narrow h1 {
+  font-size: 2.4rem !important;
+}
+
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 1.2rem !important;
+  padding: 0.6rem 1.2rem !important;
+  margin: 1rem;
+  color: white;
+  background-color: darksalmon !important;
+  border-color: darksalmon !important;
+}
+
+.btn-secondary:hover {
+  background-color: indianred !important;
+  border-color: indianred !important;
+}
+
+.jumbotron {
+  margin-bottom: 0 !important;
+  padding: 2rem 0 3.5rem !important;
+  border-radius: 0 !important;
+}
+
+h3.heading {
+  font-size: 1.9rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  margin-bottom: 1.9rem !important;
+}
+.heading-underline {
+  width: 3rem;
+  height: 0.2rem;
+  background-color: darksalmon;
+  margin: 0 auto 2rem;
+}
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+.card-title {
+  font-family: "Amatic SC", cursive !important;
+  font-size: 3rem;
+}
+.btn-primary {
+  border-width: medium;
+  border-radius: 0;
+  text-transform: uppercase;
+  color: white;
+  background-color: darksalmon !important;
+  border-color: darksalmon !important;
+}
+.btn-primary:hover {
+  background-color: indianred !important;
+  border-color: indianred !important;
+}
+
+.fixed {
+  background-image: url("images/podcast.jpg");
+  z-index: -1;
+}
+/*Photo by <a href="https://unsplash.com/@farber?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jonathan Farber</a> on <a href="https://unsplash.com/s/photos/podcasting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   */
+.dark {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 7rem 2rem;
+}
+.fixed-background h3 {
+  margin-bottom: 2rem;
+}
+
+.fixed-background p {
+  margin-top: 1.5rem;
+}
+.fas {
+  color: darksalmon;
+}
+.fas:hover {
+  color: indianred !important;
+}
+
+.ceremonies img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+blockquote {
+  margin: 1rem !important;
+}
+.ceremony-hr {
+  border-top: 0.05rem solid darksalmon;
+}
+
+footer {
+  background-color: #40474e;
+  color: white;
+  padding: 2rem 0 2rem;
+  margin-top: 1rem;
+}
+footer img {
+  height: 3rem;
+  margin: 1.5rem 0;
+}
+footer a {
+  color: white;
+}
+.fab {
+  font-size: 1.6rem;
+  margin: 1.2rem 0.5rem 0 0;
+}
+.fab:hover {
+  color: indianred !important;
+}
+
+hr.socket {
+  width: 100%;
+  border-top: 0.2rem solid #666b71;
+  margin-top: 3rem;
+}
+
+/* Add break points for responsiveness */
+
+@media (max-width: 767px) {
+  .caption h1 {
+    font-size: 2.3rem !important;
+    letter-spacing: 0.15rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+
+  .caption h3 {
+    font-size: 1.2rem !important;
+    padding-bottom: 1.2rem !important;
+  }
+
+  .btn-lg {
+    padding: 0.5rem 1rem !important;
+    font-size: 1rem !important;
+  }
+  .narrow h1 {
+    font-size: 1.5rem !important;
+  }
+  .ceremonies img {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+/*============ BOOTSTRAP BREAK POINTS:
+  
+  Extra small (xs) devices (portrait phones, less than 576px)
+  No media query since this is the default in Bootstrap
+  
+  Small (sm) devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { ... }
+  
+  Medium (md) devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+  Large (lg) devices (desktops, 992px and up)
+  @media (min-width: 992px) { ... }
+  
+  Extra (xl) large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { ... }
+  
+  =============*/
