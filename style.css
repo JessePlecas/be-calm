@@ -246,7 +246,15 @@ hr.socket {
   }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 576px) {
+  .navbar-collapse {
+    top: 5rem;
+    background-color: indianred;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+  }
+
   .caption h1 {
     font-size: 3rem !important;
     letter-spacing: 0.15rem !important;
